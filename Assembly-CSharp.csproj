@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\HeadController.cs" />
      <Compile Include="Assets\Script\EmotionDetection.cs" />
      <Compile Include="Assets\Script\WebcamManager.cs" />
+     <Compile Include="Assets\Scripts\Visual.cs" />
      <Compile Include="Assets\Scripts\BlendShapesController.cs" />
      <Compile Include="Assets\modelControl.cs" />
      <Compile Include="Assets\Script\PlayerController.cs" />
