@@ -26,6 +26,15 @@ public class PlayerController : MonoBehaviour
         //Movement();
         SwitchAnim();
         anim.SetFloat("running", Mathf.Abs(rb.velocity.x));
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Movement(3.0f);
+            Jump();
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            Movement(3.0f);
+        }
     }
 
     public void Movement(float horizontalMove)

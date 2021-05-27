@@ -113,13 +113,13 @@ public class WebcamManager : MonoBehaviour
 
                 if (text.text == "happy" && slider.value > 0.5f)
                 {
-                    playerController.Movement(slider.value);
+                    // playerController.Movement(slider.value);
                 }
                 //Debug.Log(slider.value);
-                if (text.text == "angry" && slider.value > 0.3f)
+                if (text.text == "angry" && slider.value > 0.2f)
                 {
-                    playerController.Movement(1.0f);
-                    playerController.Jump();
+                    // playerController.Movement(1.0f);
+                    // playerController.Jump();
                 }
             }
         }
